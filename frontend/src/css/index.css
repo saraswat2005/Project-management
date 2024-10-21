@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.body{
+    display: flex;
+}
+th{
+    width: 16vw;
+}
+.label-row{
+    position: relative;
+    left: 5vw;
+}
+.sidebar{
+    width: 16vw;
+    height: 100vh;
+}
+.content{
+    min-width: 50vw;
+    min-height: 50vh;
+}
+.msg{
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    font-size: 30px;
+}
+.addProjectButton{
+    position: relative;
+    left: 30vw;
+}
+.addProjectForm{
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    height: 70vh;
+}
+.projectAddForm{
+    width: 30vw;
+}
+
+.projectAddForm textarea{
+    width: 30vw;
+}
+.addTaskButton{
+    position: relative;
+    left: 30vw;
+}
+.addTaskForm{
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    height: 70vh;
+}
+.taskAddForm{
+    width: 30vw;
+}
+
+.taskAddForm textarea{
+    width: 30vw;
+}
+.addTaskButton{
+    position: relative;
+    left: 30vw;
+}
